@@ -1,6 +1,6 @@
 function factorial(num){
     let factorial = 1;
-    if(num === 0 )
+    if(num === 1 || num === 0)
         return 1;
     
     else
@@ -11,5 +11,5 @@ function factorial(num){
                    
 }
 
-const result = factorial(50);
+const result = factorial(0);
 console.log(result);

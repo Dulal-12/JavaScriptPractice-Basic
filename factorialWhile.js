@@ -1,18 +1,18 @@
-function factorial(num){
+function factoralWhile(num){
     let i = 1;
-    let factorial = 1;
-    if(num === 1)
+    let factoralWhile = 1;
+    if(num === 1 || num === 0)
          return 1;
 
     else
           while(i<=num){
-               factorial *= i;
+               factoralWhile *= i;
                i++;
           }
 
-        return factorial;
+        return factoralWhile;
                
 }
 
-const result = factorial(4);
+const result = factoralWhile(0);
 console.log(result);
