@@ -11,5 +11,5 @@ function factorial(num){
                    
 }
 
-const result = factorial(4);
+const result = factorial(50);
 console.log(result);
